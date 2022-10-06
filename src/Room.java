@@ -16,4 +16,15 @@ public class Room {
     public void setItem(Item item) {
         this.item = item;
     }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "siteN=" + siteN +
+                ", siteE=" + siteE +
+                ", siteW=" + siteW +
+                ", siteS=" + siteS +
+                ", item=" + item +
+                '}';
+    }
 }
